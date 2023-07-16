@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box !;
 }
 
 .clogo {
@@ -14,8 +14,12 @@
   color: rgb(100, 48, 48) !important;
 }
 .imgwh {
-  width: 50px;
-  height: 30px;
+  width: 100px;
+  height: 50px;
+}
+.imgwh-1 {
+  width: 450px;
+  height: 350px;
 }
 
 .backgroundc {
@@ -24,10 +28,78 @@
 
 .main-back {
   background-color: rgb(73, 68, 68);
-  width: 193vh;
 }
 
 .d-flex .justify-content-evenly {
   display: flex;
   flex-direction: row-reverse;
+}
+
+.height-1 {
+  height: 40rem;
+}
+.main-height {
+  display: block;
+}
+
+@media (max-height: 100px) {
+  .block-text {
+    display: none;
+  }
+}
+
+.color {
+  background-color: orange;
+  height: 3.9rem;
+}
+
+.container {
+  width: 2000px !important ;
+}
+
+col {
+  display: grid !important;
+}
+
+.txt-col {
+  color: orange;
+  border: 1px solid rgb(5, 5, 5);
+  place-self: center;
+  font-size: 30px;
+  text-align: center;
+}
+
+.txt-col-1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.txt-col-2 {
+  text-align: center;
+  padding-top: 20px;
+}
+.clearfix {
+  width: 500px;
+  height: 380px !important;
+}
+
+.clearfix p {
+  color: orange;
+}
+.submit-button {
+  padding: 10px 20px;
+  color: black;
+  background-color: orange;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+.submit-button:active {
+  font-size: 10px;
+  padding: 4px 10px;
+  background-color: orange;
 }
